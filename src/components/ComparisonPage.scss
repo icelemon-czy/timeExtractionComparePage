@@ -1,0 +1,63 @@
+.page{
+  height: 100vh;
+  width: 100vw;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wrapper{
+
+    border-radius: 10px;
+
+
+    .upper{
+      p {
+        margin: 10px 0;
+        padding: 5px;
+      }
+    }
+
+    .down{
+      display: flex;
+      align-items: center;
+      .left{
+      }
+      .right{
+        .input{
+          display: flex;
+          gap: 50px;
+
+          input 				{
+            font-size:18px;
+            padding:10px 10px 10px 5px;
+            display:block;
+            width:40vw; // 400 px
+            border:none;
+            border-bottom:1px solid #757575;
+          }
+
+        }
+        .resultDisplay{
+          display: flex;
+          flex-direction: column;
+          border-color: blue;
+          .result{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            gap:5px;
+
+            p{
+              height: 10px;
+            }
+            p:first-child{
+              width: 14vw;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+}
